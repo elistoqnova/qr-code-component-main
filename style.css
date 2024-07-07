@@ -35,7 +35,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    width: 300px;
 }
 
 .wrapper {
@@ -44,20 +44,25 @@ body {
 
 img {
     width: 100%;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 h1, p {
-    padding: 20px 10px 5px;
+    
     text-align: center;
 }
 
 h1 {
+    font-size: 1rem;
     color: var(--clr-dark-blue);
+    padding: 20px 0 10px;
 }
 
 p {
-    font-size: 1rem;
+    font-size: 15px;
     color: var(--clr-gray-blue);
+    padding: 10px 0 20px;
 }
+
+
 
